@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 
 using System.IO;    //入出力
-using PokemonBattleLog.Data;
+using PokemonBattleLog.Dto;
 using PokemonBattleLog.Output;
 using System.Diagnostics;
 
@@ -21,6 +21,7 @@ namespace PokemonBattleLog
         ///// 自分が選出したポケモン
         ///// </summary>
         //private List<string> _InputedData.MeSelectedPokemons = new List<string>();
+
 
         ///// <summary>
         ///// 相手が選出したポケモン

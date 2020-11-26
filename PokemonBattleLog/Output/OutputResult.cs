@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 using System.IO;
-using PokemonBattleLog.Data;
+using PokemonBattleLog.Dto;
 
 namespace PokemonBattleLog.Output
 {
