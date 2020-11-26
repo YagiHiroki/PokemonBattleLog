@@ -5,14 +5,14 @@ using System.Text;
 
 namespace PokemonBattleLog.Dto
 {
-    class InputedData
+    class InputDto
     {
         /// <summary>
         /// コンストラクタ
         /// </summary>
         /// <remarks>結果を出力させた後、持ってるデータを破棄するため
         /// 初期化をまとめておく</remarks>
-        public InputedData()
+        public InputDto()
         {
             //パーティ
             MeParty = new string[6];
